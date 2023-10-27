@@ -1,3 +1,4 @@
+import CreateNoteDialog from "@/components/CreateNoteDialog";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { UserButton } from "@clerk/nextjs";
@@ -36,6 +37,11 @@ const Dashboard = (props: Props) => {
         <h2 className="text-xl text-gray-500">
           Та тэмдэглэл оруулагүй байна ..
         </h2>
+      </div>
+
+      {/* Temdegleluud end bn */}
+      <div className="grid sm:grid-cols-3 md:grid-cols-5">
+        <CreateNoteDialog />
       </div>
     </div>
   );
