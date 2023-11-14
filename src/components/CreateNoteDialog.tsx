@@ -41,7 +41,7 @@ const CreateNoteDialog = (props: Props) => {
               onChange={e => setInput(e.target.value)}
             />
             <div className="h-4"></div>
-            <div className="flex items-center">
+            <div className="flex items-center gap-2">
               <Button type="reset" variant={"secondary"}>
                 Буцах
               </Button>

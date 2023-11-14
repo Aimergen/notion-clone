@@ -32,6 +32,7 @@ const Dashboard = (props: Props) => {
       <div className="h-8"></div>
       <Separator />
       <div className="h-8"></div>
+
       {/* Buh note end bn  */}
       <div className="text-center">
         <h2 className="text-xl text-gray-500">
